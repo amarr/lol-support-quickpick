@@ -472,48 +472,6 @@ var views = {
 	})
 };
 
-var init = {
-	support : function(rowType) {
-		var row = new views.Row({rowType : rowType});
-	
-		for(var support in supports) {
-			var s = supports[support];
-			
-			var sprite = new views.Sprite({indexNumber : support});
-			
-			row.addSprite(sprite);
-		}
-		
-		var container = new views.Container({titleTag : rowType});
-		
-		container.addRow(row);
-		
-		$('#app').append(container.render().el);
-		
-		return container;
-	},
-	
-	carries : function(rowType) {
-		var row = new views.Row({rowType : rowType});
-	
-		for(var carry in carries) {
-			var c = carries[carry];
-			
-			var sprite = new views.Sprite({indexNumber : carry});
-			
-			row.addSprite(sprite);
-		}
-		
-		var container = new views.Container({titleTag : rowType});
-		
-		container.addRow(row);
-		
-		$('#app').append(container.render().el);
-		
-		return container;
-	}
-};
-
 $(function() {
 	app = new views.App({el: $('#app').get(0)});
 	
