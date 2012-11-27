@@ -1,0 +1,146 @@
+body {
+	background: black;
+	color: #ccc;
+}
+
+div.container {
+	width: 1300px;
+}
+
+.sprite a, .sprite-gray a  {
+	display: block;
+	width: 80px;
+	height: 80px;
+	font-size: 48px;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.sprite a:hover, .sprite-gray a:hover {
+	border: 2px solid white;
+	border-radius: 5px;
+	width: 76px;
+	height: 76px;
+}
+
+.sprite a.selected, .sprite-gray a.selected {
+	border: 2px solid blue;
+	border-radius: 5px;
+	width: 76px;
+	height: 76px;
+}
+
+.sprite {
+    background: url(images/icons.gif) no-repeat top left;
+}
+
+.sprite-gray {
+    background: url(images/icons-gray.gif) no-repeat top left;
+}
+
+.sprite-1{ background-position: 0 0; width: 80px; height: 80px; } 
+.sprite-10{ background-position: 0 -130px; width: 80px; height: 80px; } 
+.sprite-101{ background-position: 0 -260px; width: 80px; height: 80px; } 
+.sprite-102{ background-position: 0 -390px; width: 80px; height: 80px; } 
+.sprite-103{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.sprite-104{ background-position: 0 -650px; width: 80px; height: 80px; } 
+.sprite-105{ background-position: 0 -780px; width: 80px; height: 80px; } 
+.sprite-106{ background-position: 0 -910px; width: 80px; height: 80px; } 
+.sprite-107{ background-position: 0 -1040px; width: 80px; height: 80px; } 
+.sprite-11{ background-position: 0 -1170px; width: 80px; height: 80px; } 
+.sprite-110{ background-position: 0 -1300px; width: 80px; height: 80px; } 
+.sprite-111{ background-position: 0 -1430px; width: 80px; height: 80px; } 
+.sprite-112{ background-position: 0 -1560px; width: 80px; height: 80px; } 
+.sprite-113{ background-position: 0 -1690px; width: 80px; height: 80px; } 
+.sprite-114{ background-position: 0 -1820px; width: 80px; height: 80px; } 
+.sprite-115{ background-position: -130px 0; width: 80px; height: 80px; } 
+.sprite-117{ background-position: -130px -130px; width: 80px; height: 80px; } 
+.sprite-119{ background-position: -130px -260px; width: 80px; height: 80px; } 
+.sprite-12{ background-position: -130px -390px; width: 80px; height: 80px; } 
+.sprite-120{ background-position: -130px -520px; width: 80px; height: 80px; } 
+.sprite-121{ background-position: -130px -650px; width: 80px; height: 80px; } 
+.sprite-122{ background-position: -130px -780px; width: 80px; height: 80px; } 
+.sprite-126{ background-position: -130px -910px; width: 80px; height: 80px; } 
+.sprite-13{ background-position: -130px -1040px; width: 80px; height: 80px; } 
+.sprite-131{ background-position: -130px -1170px; width: 80px; height: 80px; } 
+.sprite-134{ background-position: -130px -1300px; width: 80px; height: 80px; } 
+.sprite-14{ background-position: -130px -1430px; width: 80px; height: 80px; } 
+.sprite-143{ background-position: -130px -1560px; width: 80px; height: 80px; } 
+.sprite-15{ background-position: -130px -1690px; width: 80px; height: 80px; } 
+.sprite-16{ background-position: -130px -1820px; width: 80px; height: 80px; } 
+.sprite-17{ background-position: -260px 0; width: 80px; height: 80px; } 
+.sprite-18{ background-position: -260px -130px; width: 80px; height: 80px; } 
+.sprite-19{ background-position: -260px -260px; width: 80px; height: 80px; } 
+.sprite-2{ background-position: -260px -390px; width: 80px; height: 80px; } 
+.sprite-20{ background-position: -260px -520px; width: 80px; height: 80px; } 
+.sprite-21{ background-position: -260px -650px; width: 80px; height: 80px; } 
+.sprite-22{ background-position: -260px -780px; width: 80px; height: 80px; } 
+.sprite-23{ background-position: -260px -910px; width: 80px; height: 80px; } 
+.sprite-24{ background-position: -260px -1040px; width: 80px; height: 80px; } 
+.sprite-25{ background-position: -260px -1170px; width: 80px; height: 80px; } 
+.sprite-26{ background-position: -260px -1300px; width: 80px; height: 80px; } 
+.sprite-27{ background-position: -260px -1430px; width: 80px; height: 80px; } 
+.sprite-28{ background-position: -260px -1560px; width: 80px; height: 80px; } 
+.sprite-29{ background-position: -260px -1690px; width: 80px; height: 80px; } 
+.sprite-3{ background-position: -260px -1820px; width: 80px; height: 80px; } 
+.sprite-30{ background-position: -390px 0; width: 80px; height: 80px; } 
+.sprite-31{ background-position: -390px -130px; width: 80px; height: 80px; } 
+.sprite-32{ background-position: -390px -260px; width: 80px; height: 80px; } 
+.sprite-33{ background-position: -390px -390px; width: 80px; height: 80px; } 
+.sprite-34{ background-position: -390px -520px; width: 80px; height: 80px; } 
+.sprite-35{ background-position: -390px -650px; width: 80px; height: 80px; } 
+.sprite-36{ background-position: -390px -780px; width: 80px; height: 80px; } 
+.sprite-37{ background-position: -390px -910px; width: 80px; height: 80px; } 
+.sprite-38{ background-position: -390px -1040px; width: 80px; height: 80px; } 
+.sprite-39{ background-position: -390px -1170px; width: 80px; height: 80px; } 
+.sprite-4{ background-position: -390px -1300px; width: 80px; height: 80px; } 
+.sprite-40{ background-position: -390px -1430px; width: 80px; height: 80px; } 
+.sprite-41{ background-position: -390px -1560px; width: 80px; height: 80px; } 
+.sprite-42{ background-position: -390px -1690px; width: 80px; height: 80px; } 
+.sprite-43{ background-position: -390px -1820px; width: 80px; height: 80px; } 
+.sprite-44{ background-position: -520px 0; width: 80px; height: 80px; } 
+.sprite-45{ background-position: -520px -130px; width: 80px; height: 80px; } 
+.sprite-48{ background-position: -520px -260px; width: 80px; height: 80px; } 
+.sprite-5{ background-position: -520px -390px; width: 80px; height: 80px; } 
+.sprite-50{ background-position: -520px -520px; width: 80px; height: 80px; } 
+.sprite-51{ background-position: -520px -650px; width: 80px; height: 80px; } 
+.sprite-53{ background-position: -520px -780px; width: 80px; height: 80px; } 
+.sprite-54{ background-position: -520px -910px; width: 80px; height: 80px; } 
+.sprite-55{ background-position: -520px -1040px; width: 80px; height: 80px; } 
+.sprite-56{ background-position: -520px -1170px; width: 80px; height: 80px; } 
+.sprite-57{ background-position: -520px -1300px; width: 80px; height: 80px; } 
+.sprite-58{ background-position: -520px -1430px; width: 80px; height: 80px; } 
+.sprite-59{ background-position: -520px -1560px; width: 80px; height: 80px; } 
+.sprite-6{ background-position: -520px -1690px; width: 80px; height: 80px; } 
+.sprite-60{ background-position: -520px -1820px; width: 80px; height: 80px; } 
+.sprite-61{ background-position: -650px 0; width: 80px; height: 80px; } 
+.sprite-62{ background-position: -650px -130px; width: 80px; height: 80px; } 
+.sprite-63{ background-position: -650px -260px; width: 80px; height: 80px; } 
+.sprite-64{ background-position: -650px -390px; width: 80px; height: 80px; } 
+.sprite-67{ background-position: -650px -520px; width: 80px; height: 80px; } 
+.sprite-68{ background-position: -650px -650px; width: 80px; height: 80px; } 
+.sprite-69{ background-position: -650px -780px; width: 80px; height: 80px; } 
+.sprite-7{ background-position: -650px -910px; width: 80px; height: 80px; } 
+.sprite-72{ background-position: -650px -1040px; width: 80px; height: 80px; } 
+.sprite-74{ background-position: -650px -1170px; width: 80px; height: 80px; } 
+.sprite-75{ background-position: -650px -1300px; width: 80px; height: 80px; } 
+.sprite-76{ background-position: -650px -1430px; width: 80px; height: 80px; } 
+.sprite-77{ background-position: -650px -1560px; width: 80px; height: 80px; } 
+.sprite-78{ background-position: -650px -1690px; width: 80px; height: 80px; } 
+.sprite-79{ background-position: -650px -1820px; width: 80px; height: 80px; } 
+.sprite-8{ background-position: -780px 0; width: 80px; height: 80px; } 
+.sprite-80{ background-position: -780px -130px; width: 80px; height: 80px; } 
+.sprite-81{ background-position: -780px -260px; width: 80px; height: 80px; } 
+.sprite-82{ background-position: -780px -390px; width: 80px; height: 80px; } 
+.sprite-83{ background-position: -780px -520px; width: 80px; height: 80px; } 
+.sprite-84{ background-position: -780px -650px; width: 80px; height: 80px; } 
+.sprite-85{ background-position: -780px -780px; width: 80px; height: 80px; } 
+.sprite-86{ background-position: -780px -910px; width: 80px; height: 80px; } 
+.sprite-89{ background-position: -780px -1040px; width: 80px; height: 80px; } 
+.sprite-9{ background-position: -780px -1170px; width: 80px; height: 80px; } 
+.sprite-90{ background-position: -780px -1300px; width: 80px; height: 80px; } 
+.sprite-91{ background-position: -780px -1430px; width: 80px; height: 80px; } 
+.sprite-92{ background-position: -780px -1560px; width: 80px; height: 80px; } 
+.sprite-96{ background-position: -780px -1690px; width: 80px; height: 80px; } 
+.sprite-98{ background-position: -780px -1820px; width: 80px; height: 80px; } 
+.sprite-99{ background-position: -910px 0; width: 80px; height: 80px; } 
