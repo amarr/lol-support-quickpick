@@ -31,7 +31,7 @@ var views = {
 				return container;
 			};
 			
-			document.createElement('IMG').src = 'icons-gray.gif';
+			document.createElement('IMG').src = 'images/icons-gray.gif';
 		
 			this.yourCarryContainer = initContainer('Your Carry', carries);
 			this.enemyCarryContainer = initContainer('Enemy Carry', carries);
